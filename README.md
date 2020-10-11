@@ -1,3 +1,5 @@
 # my-app
 
-Describe my-app here.
+With:
+plugin-netlify NWB and unistore
+

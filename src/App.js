@@ -1,6 +1,11 @@
 import './App.css'
 
 import {h, Component} from 'preact'
+import util from 'preact-util';
+import { createStore, Provider, connect } from 'unistore/full/preact'
+
+const apiServer = props.apiServer || `${window.location.protocol}//${window.location.host}`;
+util.setApiServer(apiServer);
 
 export default class App extends Component {
   render() {
