@@ -12,10 +12,13 @@
     "test:watch": "nwb test-preact --server"
   },
   "dependencies": {
-    "preact": "^10.5.4"
+    "preact": "^10.5.4",
+    "preact-util": "^1.4.10",
+    "unistore": "^3.5.2"
   },
   "devDependencies": {
-    "nwb": "0.25.x"
+    "nwb": "0.25.x",
+    "preact-cli-plugin-netlify": "^1.6.0"
   },
   "author": "",
   "license": "MIT",
